@@ -4,7 +4,7 @@ import Countdown from 'react-countdown';
 
 const renderer = ({days, hours, minutes, seconds }: any) => {
     
-      return ( <span>{days} Days {hours}:{minutes}:{seconds}</span>);
+      return ( <span>{days} Days to go...</span>);
   };
 
 
