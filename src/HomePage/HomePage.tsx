@@ -2,6 +2,9 @@ import React from "react";
 import Countdown from "react-countdown";
 import cradle from "../assets/cradle1.gif";
 
+const dateObject = new Date("2023-12-10")
+const indiaDateObject = dateObject.toLocaleDateString('en-US',{timeZone:"Asia/Kolkata"})
+
 const renderer = ({ days, hours, minutes, seconds }: any) => {
   return <span>{days} Days to go...</span>;
 };
@@ -13,7 +16,7 @@ export const HomePage = () => {
       <img src={cradle} width={'80%'} height={'auto'}/>
       <div style={{ height: "50px", padding: "5px", fontSize: "30px" }}>
         <Countdown
-          date={new Date(2023, 12, 10)}
+          date={indiaDateObject}
           zeroPadTime={2}
           renderer={renderer}
         />
