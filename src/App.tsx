@@ -5,7 +5,11 @@ import {HomePage} from './HomePage/HomePage'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" 
+    style={{ 
+      backgroundImage: `url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg")` 
+    }}
+    >
       <HomePage/>
     </div>
   );
