@@ -28,14 +28,14 @@ export const HomePage = () => {
 
       <h4>Sunday, December 10th at 10:00 am</h4>
 
-      <div style={{ marginLeft: "25%" }}>
+      <div style={{ margin: "auto", width: "50%" }}>
         <AddToCalendarButton
           name="Aanya Gowtham naming ceremony"
           options={["Google"]}
           location="Basava bhavana, 4th Cross Siddarameshwara extension, Dasappa garden,
         Tumkur, Karnataka-572103"
-          startDate="2023-10-23"
-          endDate="2023-10-23"
+          startDate="2023-12-10"
+          endDate="2023-12-10"
           startTime="10:00"
           endTime="14:00"
           timeZone="Asia/Kolkata"
