@@ -1806,14 +1806,21 @@
   resolved "https://registry.npmjs.org/@types/q/-/q-1.5.6.tgz"
   integrity sha512-IKjZ8RjTSwD4/YG+2gtj7BPFRB/lNbWKTiSj3M7U/TD2B7HfYCxvp2Zz6xA2WIY7pAuL1QOUPw8gQRbUrrq4fQ==
 
-"@types/react-dom@^18.0.0", "@types/react-dom@^18.2.11":
+"@types/react-dom@^15.5.4":
+  version "15.5.21"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.21.tgz#b30eb22e8f96c7aefc27576ca58a16683c9bafdf"
+  integrity sha512-5HZym3/G/kcfkvfIGhpbpqdhr117NI+io6Wl7BZO7Gt8DaixZ/JeJO+Q0Z/ZqoOzwm9SXCADGmohy9n7HcR5EQ==
+  dependencies:
+    "@types/react" "^15"
+
+"@types/react-dom@^18.0.0":
   version "18.2.11"
   resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.11.tgz"
   integrity sha512-zq6Dy0EiCuF9pWFW6I6k6W2LdpUixLE4P6XjXU1QHLfak3GPACQfLwEuHzY5pOYa4hzj1d0GxX/P141aFjZsyg==
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.2.25":
+"@types/react@*":
   version "18.2.25"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.2.25.tgz"
   integrity sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==
@@ -1821,6 +1828,11 @@
     "@types/prop-types" "*"
     "@types/scheduler" "*"
     csstype "^3.0.2"
+
+"@types/react@^15", "@types/react@^15.5.4":
+  version "15.7.27"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.7.27.tgz#6ca13051229bc83901317c44e1a1ed86edc8ee1a"
+  integrity sha512-jLB0GLKJXo9uDjsucKzO32lMENh4fnE2tp8lWp6VfLshKoCeJt+GNERuSlucwY8zIlkqS5CA53IyeHwCaY+p3w==
 
 "@types/scheduler@*":
   version "0.16.4"
@@ -8950,13 +8962,6 @@ react-scripts@^3.0.1:
     workbox-webpack-plugin "4.2.0"
   optionalDependencies:
     fsevents "2.0.6"
-
-react@^18.2.0:
-  version "18.2.0"
-  resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
-  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
-  dependencies:
-    loose-envify "^1.1.0"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
