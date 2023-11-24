@@ -21,7 +21,7 @@ export const HomePage = () => {
         <Countdown date={indiaDateObject} zeroPadTime={2} renderer={renderer} />
       </div>
       <h4>
-        With grate pleasure we cordially invite you to the naming & cradle
+        With great pleasure we cordially invite you to the naming & cradle
         ceremony of our baby girl
       </h4>
       <h2>Gowtham and Manushree</h2>
