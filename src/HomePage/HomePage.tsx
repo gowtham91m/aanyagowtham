@@ -14,7 +14,8 @@ const renderer = ({ days, hours, minutes, seconds }: any) => {
 
 export const HomePage = () => {
   return (
-    <div style={{ padding: "5px", paddingBottom: "25px" }}>
+    <div style={{display:"flex", justifyContent: "center"}}>
+    <div style={{ padding: "5px", paddingBottom: "25px", maxWidth: "500px" }}>
       <h1>Little princess Naming and Cradle ceremony</h1>
       <img src={cradle} width={"300px"} height={"auto"} />
       <div style={{ height: "50px", padding: "5px", fontSize: "30px" }}>
@@ -59,6 +60,7 @@ export const HomePage = () => {
         height="50"
         loading="lazy"
       ></iframe>
+    </div>
     </div>
   );
 };
