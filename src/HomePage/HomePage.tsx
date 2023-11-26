@@ -16,7 +16,7 @@ export const HomePage = () => {
   return (
     <div style={{ padding: "5px", paddingBottom: "25px" }}>
       <h1>Little princess Naming and Cradle ceremony</h1>
-      <img src={cradle} width={"80%"} height={"auto"} />
+      <img src={cradle} width={"300px"} height={"auto"} />
       <div style={{ height: "50px", padding: "5px", fontSize: "30px" }}>
         <Countdown date={indiaDateObject} zeroPadTime={2} renderer={renderer} />
       </div>
@@ -28,7 +28,7 @@ export const HomePage = () => {
 
       <h4>Sunday, December 10th at 10:00 am</h4>
 
-      <div style={{ margin: "auto", width: "50%" }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
         <AddToCalendarButton
           name="Aanya Gowtham naming ceremony"
           options={["Google"]}
