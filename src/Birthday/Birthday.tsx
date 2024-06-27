@@ -32,6 +32,7 @@ export const Birthday = () => {
           marginLeft: "5%",
           marginRight: "5%",
           paddingTop: "15%",
+          paddingBottom: "15%",
         }}
       >
         <h1>My first Birthday!!!</h1>
