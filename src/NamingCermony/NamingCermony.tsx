@@ -12,9 +12,11 @@ const renderer = ({ days, hours, minutes, seconds }: any) => {
   return <span>{days} Days to go...</span>;
 };
 
-export const HomePage = () => {
+
+export const NamingCermony = () => {
   return (
-    <div style={{display:"flex", justifyContent: "center"}}>
+    <div style={{display:"flex", justifyContent: "center", backgroundImage: `url("https://images.rawpixel.com/image_1300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg")` ,
+  backgroundSize :"cover"}}>
     <div style={{ padding: "5px", paddingBottom: "25px", maxWidth: "500px" }}>
       <h1>Little princess Naming and Cradle ceremony</h1>
       <img src={cradle} width={"300px"} height={"auto"} />
