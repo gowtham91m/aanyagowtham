@@ -1,5 +1,6 @@
 import { AddToCalendarButton } from "add-to-calendar-button-react";
 import Countdown from "react-countdown";
+import aanya from './assets/aanya.png'
 
 export const Birthday = () => {
   const backgroundImage = require("./assets/background.jpg"); // Assuming the image is in your project
@@ -23,7 +24,7 @@ export const Birthday = () => {
         height: "100vh",
         width: "100vw",
         color: "black", // Text color
-        filter: 'brightness(0.5)',
+        filter: 'brightness(0.7)',
       }}
     >
       <div
@@ -34,7 +35,7 @@ export const Birthday = () => {
         }}
       >
         <h1>My first Birthday!!!</h1>
-        {/* <img src={cradle} width={"300px"} height={"auto"} /> */}
+        <img src={aanya} width={"300px"} height={"auto"} />
         <div style={{ height: "50px", fontSize: "30px" }}>
           <Countdown
             date={indiaDateObject}
@@ -43,7 +44,9 @@ export const Birthday = () => {
           />
         </div>
         <h4>
-        It's me, Aanya! I'm turning one on 07/14/2024 and I'm having a big birthday bash!
+        It's me, Aanya! I'm turning one on 07/14/2024
+        </h4>
+        <h4>
 
 My mommy and daddy are throwing me a party with cake, balloons, and all sorts of fun stuff! I can't wait to play with you and show you my new toys.
 
@@ -51,6 +54,8 @@ Please RSVP so my mommy can make sure there's enough cake for everyone!
         </h4>
 
         <h4>Sunday, July 14th at 11:00 am</h4>
+
+        <LinkButton href="https://forms.gle/AaedeKDvvwJwcYXr5">RSVP</LinkButton>
 
         <div style={{ display: "flex", justifyContent: "center" }}>
           <AddToCalendarButton
@@ -83,5 +88,23 @@ Please RSVP so my mommy can make sure there's enough cake for everyone!
         ></iframe>
       </div>
     </div>
+  );
+
+};
+
+export const LinkButton = ({ href, children }:any) => {
+  return (
+    <a href={href} style={{
+      // Add button styles here (e.g., padding, background-color, border)
+      display: 'inline-block',
+      padding: '10px 20px',
+      backgroundColor: '#4CAF50',
+      color: 'white',
+      borderRadius: '5px',
+      cursor: 'pointer',
+      textDecoration: 'none', // Remove underline from link
+    }}>
+      {children}
+    </a>
   );
 };
